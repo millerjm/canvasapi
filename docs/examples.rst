@@ -66,7 +66,7 @@ Get a User by SIS ID
 .. code-block:: python
 
     # Grab a user with the SIS ID of 'some_id'
-    user = canvas.get_user('some_id', 'sis_login_id')
+    user = canvas.get_user('some_id', 'sis_user_id')
 
 
 Get a user by their Canvas ID
